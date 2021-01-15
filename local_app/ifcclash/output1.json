@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Clashset foo",
+        "tolerance": 0.01,
+        "a": [
+            {
+                "file": "C:/Users/94950/Desktop/bim/ifcpython/hello_wall1.ifc"
+            }
+        ],
+        "b": [
+            {
+                "file": "C:/Users/94950/Desktop/bim/ifcpython/hello_wall1.ifc",
+                "selector": ".IfcProduct",
+                "mode": "i"
+            }
+        ],
+        "clashes": {
+            "1cHTOYLXSHwv_N946C0Ihn-1cHal0LXSHww88946C0Ihn": {
+                "a_global_id": "1cHTOYLXSHwv_N946C0Ihn",
+                "b_global_id": "1cHal0LXSHww88946C0Ihn",
+                "a_ifc_class": "IfcWallStandardCase",
+                "b_ifc_class": "IfcWindow",
+                "a_name": "Wall",
+                "b_name": "Window",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    3.5,
+                    -0.1,
+                    2.0
+                ],
+                "penetration_depth": 0.11
+            },
+            "1cHYHILXSHwuue946C0Ihn-1cHal0LXSHww88946C0Ihn": {
+                "a_global_id": "1cHYHILXSHwuue946C0Ihn",
+                "b_global_id": "1cHal0LXSHww88946C0Ihn",
+                "a_ifc_class": "IfcOpeningElement",
+                "b_ifc_class": "IfcWindow",
+                "a_name": "Opening",
+                "b_name": "Window",
+                "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "position": [
+                    3.5,
+                    -0.1,
+                    2.0
+                ],
+                "penetration_depth": 0.11
+            },
+            "1cHal0LXSHww88946C0Ihn-1cHTOYLXSHwv_N946C0Ihn": {
+                "a_global_id": "1cHal0LXSHww88946C0Ihn",
+                "b_global_id": "1cHTOYLXSHwv_N946C0Ihn",
+                "a_ifc_class": "IfcWindow",
+                "b_ifc_class": "IfcWallStandardCase",
+                "a_name": "Window",
+                "b_name": "Wall",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    3.5,
+                    -0.1,
+                    2.0
+                ],
+                "penetration_depth": 0.11
+            },
+            "1cHal0LXSHww88946C0Ihn-1cHYHILXSHwuue946C0Ihn": {
+                "a_global_id": "1cHal0LXSHww88946C0Ihn",
+                "b_global_id": "1cHYHILXSHwuue946C0Ihn",
+                "a_ifc_class": "IfcWindow",
+                "b_ifc_class": "IfcOpeningElement",
+                "a_name": "Window",
+                "b_name": "Opening",
+                "normal": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    3.5,
+                    -0.1,
+                    2.0
+                ],
+                "penetration_depth": 0.11
+            }
+        }
+    }
+]

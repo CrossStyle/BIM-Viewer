@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Clashset foo",
+        "tolerance": 0.01,
+        "a": [
+            { "file": "C:/Users/94950/Desktop/bim/ifcpython/1.ifc" }
+        ],
+        "b": [
+            {
+                "file": "C:/Users/94950/Desktop/bim/ifcpython/1.ifc",
+                "selector": ".IfcProduct",
+                "mode": "i"
+            }
+        ]
+    }
+]
+

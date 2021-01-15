@@ -1,0 +1,66 @@
+﻿html, body{
+  min-height: 100%;
+  height: 100%;
+}
+
+.fill{
+  height: calc(100vh - 100px);
+}
+
+body {
+  padding-top: 60px; /* space for the top nav bar */
+  /* margin-right: 30px; */
+}
+
+#appBuckets {
+  overflow: auto;
+  width: 100%;
+  height: calc(100vh - 150px);
+}
+
+#forgeViewer {
+  width: 100%;
+}
+
+.nopadding{padding: 0;}
+
+.pl{padding-left: 10px;}
+
+.left_panel{padding: 0 10px;}
+
+.right_panel{padding: 0 10px;}
+
+.handleSelectionExtensionIcon {
+  background-image: url(隔离.png);
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modelSummaryExtensionIcon {
+  background-image: url(dashboard.png);
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modelRevisionChangesCheckingExtensionExtensionIcon {
+  background-image: url(pc.png);
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.searchByIDExtensionIcon {   
+  background-image: url(search.png);   
+  background-size: 24px;   
+  background-repeat: no-repeat;   
+  background-position: center; 
+}
+
+
+
+
+
+
+
