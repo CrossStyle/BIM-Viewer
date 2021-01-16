@@ -1,6 +1,6 @@
 # BIM-Viewer
-This repository contains the code for a forge app and  some scripts about IfcOpenShell-Python.
-# Requirement
+This repository contains the code for a forge app and python scripts based on IfcOpenShell-Python.
+# Requirements
 Node.js<br>
 Python=3.7<br>
 IfcOpenShell=0.60<br>
